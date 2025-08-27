@@ -1,0 +1,14 @@
+package logica;
+
+public class IfElse {
+    public static void main(String[] args) {
+        int numero = -5;
+        if (numero >= 0){
+            System.out.println("numero positivo");
+        }else {
+            System.out.println("numero negativo");
+        }
+
+    }
+
+}
