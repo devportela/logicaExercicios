@@ -12,7 +12,7 @@ public class SwitchAninhado {
             case 1:
                 System.out.println("categoria selecionada : matematica:");
                 System.out.println("selecione a subcategoria abaixo: ");
-                int respostaSubCategoria = sc.nextInt();
+                int respostaSubCategoria1 = sc.nextInt();
                 switch (resposta) {
                     case 1:
                         System.out.println("calcular soma");
@@ -23,9 +23,26 @@ public class SwitchAninhado {
                         break;
 
                 }
+                break;
+
+            case 2:
+                System.out.println("categoria selecionada : ciencias");
+                System.out.println("selecione a sub categoria abaixo:");
+                int respostaSubCategoria2 = sc.nextInt();
+                switch (respostaSubCategoria2) {
+                    case 1:
+                        System.out.println("ver plantas");
+                        break;
+
+                    case 2:
+                        System.out.println("ver experimentos");
+                        break;
+                }
+                break;x''
 
 
         }
+        break;
 
 
     }
